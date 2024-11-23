@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("mika.plugins",{
 	checker = {
-    enabled = true,
+    --enabled = true,
     notify = false,
   }
 })
